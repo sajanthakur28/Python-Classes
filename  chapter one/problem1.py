@@ -18,15 +18,15 @@
 # engine.runAndWait()
 import os
 
-# Specify the directory path
-directory_path = '/new folder'  # Change this to your desired directory path
+# # Specify the directory path
+# directory_path = '/new folder'  # Change this to your desired directory path
 
-# Check if the directory exists
-if os.path.exists(directory_path) and os.path.isdir(directory_path):
-    print(f"\nContents of '{directory_path}':\n")
+# # Check if the directory exists
+# if os.path.exists(directory_path) and os.path.isdir(directory_path):
+#     print(f"\nContents of '{directory_path}':\n")
     
-    # List directory contents
-    for item in os.listdir(directory_path):
-        print(item)
-else:
-    print("Invalid directory path.")
+#     # List directory contents
+#     for item in os.listdir(directory_path):
+#         print(item)
+# else:
+#     print("Invalid directory path.")
